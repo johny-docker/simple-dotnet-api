@@ -1,10 +1,2 @@
-src/Simple.Business/bin/
-src/Simple.Business/obj/
-src/Simple.Repo/bin/
-src/Simple.Repo/obj/
-src/Simple.Service/bin/
-src/Simple.Service/obj/
-test/Simple.Business.Test/bin/
-test/Simple.Business.Test/obj/
-test/Simple.Service.Test/bin/
-test/Simple.Service.Test/obj/
+src/Simple.WebApi/bin/
+src/Simple.WebApi/obj/

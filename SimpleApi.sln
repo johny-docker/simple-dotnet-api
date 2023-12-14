@@ -3,19 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D011F90D-8089-4E2F-B1B0-77758B41050B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{779376B8-019A-42FA-850D-51DADF429F3D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{417B5285-AFFE-4BC0-9D8F-5B9DE9F3B57B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.Repo", "src\Simple.Repo\Simple.Repo.csproj", "{185242C7-E4FE-4A39-9033-8E20CBF0167A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.Business", "src\Simple.Business\Simple.Business.csproj", "{2E0B4A16-FF9E-4C0C-8707-CF1DFB04841C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.Business.Test", "test\Simple.Business.Test\Simple.Business.Test.csproj", "{621AB0D2-B640-46BA-9D98-6C6217904E74}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.Service", "src\Simple.Service\Simple.Service.csproj", "{B7CAAED9-E04E-4D03-864F-BEED474B8EA8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.Service.Test", "test\Simple.Service.Test\Simple.Service.Test.csproj", "{831B5828-F8CF-4963-8A84-58A101CBE071}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.WebApi", "src\Simple.WebApi\Simple.WebApi.csproj", "{08402C43-82CB-444F-AC4B-D39EFB87765A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,35 +13,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{185242C7-E4FE-4A39-9033-8E20CBF0167A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{185242C7-E4FE-4A39-9033-8E20CBF0167A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{185242C7-E4FE-4A39-9033-8E20CBF0167A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{185242C7-E4FE-4A39-9033-8E20CBF0167A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2E0B4A16-FF9E-4C0C-8707-CF1DFB04841C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2E0B4A16-FF9E-4C0C-8707-CF1DFB04841C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2E0B4A16-FF9E-4C0C-8707-CF1DFB04841C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2E0B4A16-FF9E-4C0C-8707-CF1DFB04841C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{621AB0D2-B640-46BA-9D98-6C6217904E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{621AB0D2-B640-46BA-9D98-6C6217904E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{621AB0D2-B640-46BA-9D98-6C6217904E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{621AB0D2-B640-46BA-9D98-6C6217904E74}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B7CAAED9-E04E-4D03-864F-BEED474B8EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B7CAAED9-E04E-4D03-864F-BEED474B8EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B7CAAED9-E04E-4D03-864F-BEED474B8EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B7CAAED9-E04E-4D03-864F-BEED474B8EA8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{831B5828-F8CF-4963-8A84-58A101CBE071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{831B5828-F8CF-4963-8A84-58A101CBE071}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{831B5828-F8CF-4963-8A84-58A101CBE071}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{831B5828-F8CF-4963-8A84-58A101CBE071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08402C43-82CB-444F-AC4B-D39EFB87765A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08402C43-82CB-444F-AC4B-D39EFB87765A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08402C43-82CB-444F-AC4B-D39EFB87765A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08402C43-82CB-444F-AC4B-D39EFB87765A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{185242C7-E4FE-4A39-9033-8E20CBF0167A} = {D011F90D-8089-4E2F-B1B0-77758B41050B}
-		{2E0B4A16-FF9E-4C0C-8707-CF1DFB04841C} = {D011F90D-8089-4E2F-B1B0-77758B41050B}
-		{621AB0D2-B640-46BA-9D98-6C6217904E74} = {417B5285-AFFE-4BC0-9D8F-5B9DE9F3B57B}
-		{B7CAAED9-E04E-4D03-864F-BEED474B8EA8} = {D011F90D-8089-4E2F-B1B0-77758B41050B}
-		{831B5828-F8CF-4963-8A84-58A101CBE071} = {417B5285-AFFE-4BC0-9D8F-5B9DE9F3B57B}
+		{08402C43-82CB-444F-AC4B-D39EFB87765A} = {779376B8-019A-42FA-850D-51DADF429F3D}
 	EndGlobalSection
 EndGlobal
