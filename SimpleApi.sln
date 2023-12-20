@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.WebApi", "src\Simple
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.Repository", "src\Simple.Repository\Simple.Repository.csproj", "{830BD3AE-CE08-4459-AB1B-5C487DAA9C21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.Common", "src\Simple.Common\Simple.Common.csproj", "{EA043383-0987-4B62-BF30-C07860029989}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{830BD3AE-CE08-4459-AB1B-5C487DAA9C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{830BD3AE-CE08-4459-AB1B-5C487DAA9C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{830BD3AE-CE08-4459-AB1B-5C487DAA9C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA043383-0987-4B62-BF30-C07860029989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA043383-0987-4B62-BF30-C07860029989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA043383-0987-4B62-BF30-C07860029989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA043383-0987-4B62-BF30-C07860029989}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +36,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{08402C43-82CB-444F-AC4B-D39EFB87765A} = {779376B8-019A-42FA-850D-51DADF429F3D}
 		{830BD3AE-CE08-4459-AB1B-5C487DAA9C21} = {779376B8-019A-42FA-850D-51DADF429F3D}
+		{EA043383-0987-4B62-BF30-C07860029989} = {779376B8-019A-42FA-850D-51DADF429F3D}
 	EndGlobalSection
 EndGlobal

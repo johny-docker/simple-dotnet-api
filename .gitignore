@@ -2,3 +2,5 @@ src/Simple.WebApi/bin/
 src/Simple.WebApi/obj/
 src/Simple.Repository/bin/
 src/Simple.Repository/obj/
+src/Simple.Common/bin/
+src/Simple.Common/obj/
