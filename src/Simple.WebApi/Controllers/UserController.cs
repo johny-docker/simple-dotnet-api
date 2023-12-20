@@ -10,7 +10,7 @@ namespace Simple.WebApi.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok("Hello");
+            return Ok(ResponseModel.CreateOkResponse());
         }
     }
 }
