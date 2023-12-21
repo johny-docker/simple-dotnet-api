@@ -1,6 +1,4 @@
 using Simple.WebApi.Middleware;
-using Simple.Common;
-using Simple.Common.Contract;
 
 namespace Simple.WebApi
 {
@@ -36,7 +34,7 @@ namespace Simple.WebApi
             services.AddControllers();
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
-            services.AddTransient<IUtilityHelper, UtilityHelper>();
+            services.AddHttpContextAccessor();
         }
     }
 }

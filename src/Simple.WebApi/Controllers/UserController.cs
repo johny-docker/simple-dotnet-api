@@ -1,16 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Simple.WebApi.Models;
 
 namespace Simple.WebApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class UserController : ControllerBase
+    public class UserController : BaseController
     {
+        public UserController(IHttpContextAccessor httpContextAccessor) : base(httpContextAccessor) { }
+
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(ResponseModel.CreateOkResponse());
+            var data = new { FirstName = "John", LastName = "Samantaray", Email = "john@gmail.com" };
+            return Ok(data);
         }
     }
 }

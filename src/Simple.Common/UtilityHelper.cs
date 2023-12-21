@@ -1,10 +1,6 @@
-﻿using Simple.Common.Contract;
-namespace Simple.Common;
+﻿namespace Simple.Common;
 
-public class UtilityHelper : IUtilityHelper
+public class UtilityHelper
 {
-    public Guid GetRequestId()
-    {
-        throw new NotImplementedException();
-    }
+
 }
