@@ -16,4 +16,9 @@
     <Folder Include="Services\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Simple.Common\Simple.Common.csproj" />
+    <ProjectReference Include="..\Simple.Repository\Simple.Repository.csproj" />
+  </ItemGroup>
+
 </Project>

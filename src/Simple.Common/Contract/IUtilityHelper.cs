@@ -2,5 +2,5 @@
 
 public interface IUtilityHelper
 {
-
+    Guid GetRequestId();
 }
